@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+
+:root{
+    --darkmagenta: hsl(300, 43%, 22%);
+    --softpink: hsl(333, 80%, 67%);
+    --dark-gray-magenta: hsl(303, 10%, 53%);
+    --light-magenta: hsl(300, 24%, 96%);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-image: url('/images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat, no-repeat;
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bg{
+    width: 1100px;
+    height: 500px;
+}
+
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.text h1{
+    font-size: 50px;
+    color: var(--darkmagenta);
+}
+
+.text p{
+    color: var(--dark-gray-magenta);
+    font-weight: 400;
+    padding-top: 25px;
+    line-height: 1.2rem;
+}
+
+.cards{
+    width: 500px;
+}
+
+.card-star{
+    display: flex;
+    align-items: center;
+    background-color: var(--light-magenta);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.card-star i{
+    color: #E69D5D;
+}
+
+.guru{
+    position: relative;
+    left: 20px;
+}
+
+.besttech{
+    position: relative;
+    left: 40px;
+}
+
+.card-star p{
+    color: var(--dark-gray-magenta);
+    font-weight: 700;
+}
+
+.aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.cards-aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    width: 1000px;
+}
+
+.card{
+    background-color: var(--darkmagenta);
+    border-radius: 5px;
+}
+
+.card .card-container{
+    margin: 25px;
+}
+
+.box-info{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+
+.info h2{
+    padding-top: 15px;
+    color: var(--light-magenta);
+    font-size: 15px;
+}
+
+.info span{
+    color: var(--dark-gray-magenta);
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.card-container img{
+    border-radius: 50%;
+    height: 40px;
+}
+
+.card-container p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.1rem;
+}
+
+.irene{
+    position: relative;
+    top: 10px;
+}
+
+.anne{
+    position: relative;
+    top: 20px;
+}
+
+
+/* FOOTER */
+footer p{
+    font-size: 11px;
+    text-align: center;
+}
+
+footer a{
+    color: var(--dark-gray-magenta);
+    font-weight: 400;
+}
+
